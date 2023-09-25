@@ -1,0 +1,27 @@
+#sertifikat{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sertifikat__title{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #2C2D2E;
+  margin-bottom: 16px;
+  span{
+    color: #EF7C00;
+  }
+}
+
+.slider__box{
+  gap: 20px;
+}
+
+.slider__img-box{
+  max-width: 205px;
+  width: 100%;
+}

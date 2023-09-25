@@ -1,0 +1,60 @@
+header{
+  box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
+}
+
+.header__container{
+  padding: 13px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list{
+  display: flex;
+  gap: 32px;
+  transition: 0.5s;
+}
+
+.btns-box{
+  display: flex;
+  gap: 20px;
+}
+
+.nav__item a{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #2C2D2E;
+  &:hover{
+    color: #EF7C00;
+  }
+  transition: all;
+  transition: .3s;
+}
+.header__toggle-btn{
+  display: none;
+}
+
+.header__toggle-btn, .light-dark__icon-btn{
+  background-color: transparent;
+  border: none;
+  max-width: 40px;
+}
+
+
+
+@media only screen and (max-width: 920px) {
+  .nav__list{
+    display: flex;
+    gap: 16px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  nav{
+    display: none;
+  }
+  .header__toggle-btn{
+    display: inline-block;
+  }
+}

@@ -1,0 +1,20 @@
+.btn__box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  .btn{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: transparent;
+    color: #EF7C00;
+    border: 1px solid #EF7C00;
+    border-radius: 4px;
+    transition: 0.5s;
+    &:hover{
+      color: white;
+      background-color: #EF7C00;
+      transform: translate(0 0 1 1);
+    }
+  }
+}

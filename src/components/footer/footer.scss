@@ -1,0 +1,160 @@
+footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(0, 16, 61, 0.06);
+
+}
+hr{
+  color: #919399;
+  background-color: #919399;
+}
+
+.footer__box-first{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer__img-box{
+  width: 116px;
+  height: 53px;
+}
+
+.footer__social-list{
+  display: flex;
+  gap: 24px;
+  align-items: flex-end;
+}
+
+.footer__link-list{
+  display: flex;
+  gap: 29px;
+  align-items: flex-start;
+}
+
+.footer__link__list-box{
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  &:nth-child(1){
+    max-width: 669px;
+    width: 100%;
+  }
+  &:nth-child(2){
+    max-width: 436px;
+    width: 100%;
+  }
+}
+
+.footer__link-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 203px;
+  width: 100%;
+  gap: 12px;
+  h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #2C2D2E;
+    margin-bottom: 24px;
+  }
+
+}
+.footer__link__item-link{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #2C2D2E;
+}
+
+.footer__phone-list{
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.footer__phone-item{
+  p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    color: #EF7C00;
+    margin-bottom: 12px;
+  }
+
+  a{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #2C2D2E;
+  }
+}
+
+
+.footer__text{
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  color: #919399;
+}
+
+.footer__box-second{
+  margin-bottom: 46px;
+}
+
+
+@media only screen and (max-width:800px){
+  .footer__link-list{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width:530px){
+  .footer__link__list-box{
+    gap: 15px;
+  }
+
+  .footer__link-item{
+    h2{
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 16px;
+    }
+  
+  }
+  .footer__link__item-link{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (max-width:450px){
+
+  .footer__link__list-box{
+    flex-direction: column;
+  }
+  .footer__link-item{
+    h2{
+      font-size: 28px;
+      line-height: 28px;
+      margin-bottom: 16px;
+    }
+  
+  }
+  .footer__link__item-link{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .footer__link-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
